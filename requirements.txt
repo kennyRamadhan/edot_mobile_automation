@@ -1,0 +1,9 @@
+appium-python-client==4.0.0
+selenium==4.25.0
+pytest==9.0.0
+pytest-xdist==3.6.1
+pytest-base-url==2.1.0
+pytest-html==4.1.1
+allure-pytest==2.13.5
+PyYAML==6.0.2
+python-dotenv==1.0.1

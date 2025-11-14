@@ -1,0 +1,12 @@
+{
+    "platformName": "Android",
+    "automationName": "UiAutomator2",
+    "deviceName": "Redmi Note 10 Pro",
+    "udid": "8e7553f8",
+    "appPackage": "id.edot.ework",
+    "appActivity": "id.edot.onboarding.ui.splash.SplashScreenActivity",
+    "noReset": false,
+    "newCommandTimeout": 300,
+    "autoGrantPermissions": true
+  }
+  
