@@ -18,7 +18,7 @@ This framework supports **Android** and **iOS** devices and automatically handle
 ---
 
 ##  Requirements
- - Python 3.10+  
+- Python 3.10+  
 - Appium 2.x  
 - Node.js 18+
 - Android Studio / iOS Xcode for devices/emulators  
@@ -29,9 +29,9 @@ This framework supports **Android** and **iOS** devices and automatically handle
 
 ##  Installation
 
-    1. Clone this repository:
-    git clone https://github.com/kennyRamadhan/edot_mobile.git
-    cd edot_mobile
+ 1. Clone this repository:
+git clone https://github.com/kennyRamadhan/edot_mobile.git
+cd edot_mobile
     
     2. Create virtual environment:
     python -m venv venv
