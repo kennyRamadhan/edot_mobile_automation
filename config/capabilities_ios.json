@@ -1,0 +1,14 @@
+{
+    "platformName": "iOS",
+    "automationName": "XCUITest",
+    "deviceName": "iPhone 14",
+    "platformVersion": "17.0",
+    "bundleId": "/path/to/app.app",
+    "autoAcceptAlerts": true,
+    "wdaLaunchTimeout": "60000",
+    "wdaStartupRetries": "4",
+    "wdaStartupRetryInterval": "200000",
+    "noReset": "true",
+    "useNewWda": "false",
+    "preventWDAAttachments": "true"
+  }
