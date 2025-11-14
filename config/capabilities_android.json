@@ -5,13 +5,15 @@
     "udid": "8e7553f8",
     "appPackage": "id.edot.ework",
     "appActivity": "id.edot.onboarding.ui.splash.SplashScreenActivity",
-    "noReset": true,
+    "noReset": false,
     "newCommandTimeout": 300,
     "autoGrantPermissions": true,
     "uiautomator2ServerLaunchTimeout": 60000,
     "uiautomator2ServerInstallTimeout": 200000,
     "skipDeviceInitialization": false,
     "skipServerInstallation": false,
-    "disableWindowAnimation": true
+    "disableWindowAnimation": true,
+    "autoAcceptAlerts": true,        
+    "ignoreUnimportantViews": true 
   }
   

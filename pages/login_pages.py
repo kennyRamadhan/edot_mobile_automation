@@ -3,7 +3,7 @@ from core.base_page import BasePage
 
 class LoginPage(BasePage):
 
-    COMPANY_ID_FIELD = (AppiumBy.ID, "id.edot.ework:id/tv_company_id")
+    COMPANY_ID_FIELD = (AppiumBy.XPATH, '//android.widget.EditText[@resource-id="id.edot.ework:id/tv_company_id"]')
     USERNAME_FIELD = (AppiumBy.ID, "id.edot.ework:id/tv_username")
     PASSWORD_FIELD   = (AppiumBy.ID, "id.edot.ework:id/tv_password")
     LOGIN_BUTTON   = (AppiumBy.ID, "id.edot.ework:id/button_text")
