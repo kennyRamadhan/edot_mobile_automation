@@ -7,24 +7,23 @@ This framework supports **Android** and **iOS** devices and automatically handle
 ---
 
 ##  Table of Contents
-
-      1. [Requirements](#requirements)  
-      2. [Installation](#installation)  
-      3. [Project Structure](#project-structure)  
-      4. [Capabilities Configuration](#capabilities-configuration)  
-      5. [Running Tests](#running-tests)
-      6. [Generating Test Report](#generating-test-report)  
+1. [Requirements](#requirements)  
+2. [Installation](#installation)  
+3. [Project Structure](#project-structure)  
+4. [Capabilities Configuration](#capabilities-configuration)  
+5. [Running Tests](#running-tests)
+6. [Generating Test Report](#generating-test-report)  
 
 
 ---
 
 ##  Requirements
+ - Python 3.10+  
+- Appium 2.x  
+- Node.js 18+
+- Android Studio / iOS Xcode for devices/emulators  
+- pip packages: `appium-python-client`, `pytest`, `allure-pytest`  
 
-    - Python 3.10+  
-    - Appium 2.x  
-    - Node.js 18+  
-    - Android Studio / iOS Xcode for devices/emulators  
-    - pip packages: `appium-python-client`, `pytest`, `allure-pytest`  
 
 ---
 
