@@ -52,7 +52,7 @@ class AppiumServerManager:
 
         AppiumServerManager._port = port
         
-        # --- NEW CODE: Robust check for server readiness ---
+      
         url = f"http://127.0.0.1:{port}/status" 
         max_retries = 10
         for i in range(max_retries):
@@ -60,7 +60,7 @@ class AppiumServerManager:
                 # Check for Appium server status endpoint
                 response = requests.get(url, timeout=1) 
                 if response.status_code == 200:
-                    print("✅ Appium server is running and ready.")
+                    print(" Appium server is running and ready.")
                     break
             except requests.exceptions.ConnectionError:
                 pass # Server not ready yet
@@ -69,21 +69,21 @@ class AppiumServerManager:
                 sleep(1) # Wait 1 second before retrying
             else:
                 raise Exception("Appium server failed to start within the timeout.")
-        # --- END NEW CODE ---
+        
         
         return port
     @staticmethod
     def stop_server():
         if AppiumServerManager._server_process:
             AppiumServerManager._server_process.terminate()
-            print("🛑 Appium server stopped")
+            print(" Appium server stopped")
 
     @staticmethod
     def init_driver(caps_path):
         with open(caps_path) as f:
             caps = json.load(f)
 
-        # 🔥 Gunakan port yang sama dengan start_server()
+      
         url = f"http://127.0.0.1:{AppiumServerManager._port}"
 
         platform = caps.get("platformName", "").lower()
@@ -95,7 +95,7 @@ class AppiumServerManager:
         else:
             raise Exception("Unknown platform:", platform)
 
-        print(f"🚀 Creating driver on {url} ...")
+        print(f" Creating driver on {url} ...")
         AppiumServerManager._driver = webdriver.Remote(url, options=options)
 
         return AppiumServerManager._driver
