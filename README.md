@@ -6,7 +6,7 @@ This framework supports **Android** and **iOS** devices and automatically handle
 
 ---
 
-## 🔹 Table of Contents
+##  Table of Contents
 
 1. [Requirements](#requirements)  
 2. [Installation](#installation)  
@@ -19,7 +19,7 @@ This framework supports **Android** and **iOS** devices and automatically handle
 
 ---
 
-## 🔹 Requirements
+##  Requirements
 
 - Python 3.10+  
 - Appium 2.x  
@@ -29,7 +29,7 @@ This framework supports **Android** and **iOS** devices and automatically handle
 
 ---
 
-## 🔹 Installation
+##  Installation
 
 1. Clone this repository:
 
@@ -57,7 +57,7 @@ appium driver install uiautomator2
 appium driver install xcuitest
 
 
-🔹 Project Structure
+6. Project Structure
 edot_mobile/
 │
 ├─ config/
@@ -75,7 +75,7 @@ edot_mobile/
 └─ conftest.py
 
 
-6. Capabilities Configuration
+7. Capabilities Configuration
 
 Android Example
 {
@@ -102,14 +102,14 @@ iOS Example
 }
 
 
-7. Running Tests
+8. Running Tests
 
 Run all tests:
 
 pytest -s
 
 
-8. Generating Test Report
+9. Generating Test Report
 
 After test run:
 
@@ -117,7 +117,7 @@ pytest --alluredir=allure-results
 allure serve allure-results
 
 
-9. Run specific test with device selection:
+10. Run specific test with device selection:
 
 pytest -k login --device android -s
 pytest -k login --device ios -s
